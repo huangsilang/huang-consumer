@@ -112,17 +112,6 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <attachClasses>true</attachClasses>
-                    <warSourceExcludes>**/WEB-INF</warSourceExcludes>
-                    <packagingExcludes>**/WEB-INF,**/resources</packagingExcludes>
-                </configuration>
-                <version>2.1.1</version>
-            </plugin>
         </plugins>
     </build>
 
