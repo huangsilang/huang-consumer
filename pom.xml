@@ -103,7 +103,6 @@
                     <fork>true</fork>
                 </configuration>
             </plugin>
-
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
