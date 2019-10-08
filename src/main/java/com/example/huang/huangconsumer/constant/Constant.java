@@ -9,6 +9,7 @@ public class Constant {
 
     public static Map<String, Date> map = new HashMap<>();
 
+    public static int week =1;
     //public static String FILE_PHTH ="D:\\project2\\zaizhi\\xc-ui-pc-teach\\dist\\static\\images\\chart\\";
     public static String FILE_PHTH ="/opt/apache-tomcat-8.5.42/webapps/ROOT/static/images/chart/";
     public static String EMAIL_FILE_PHTH ="/opt/apache-tomcat-8.5.42/webapps/ROOT/static/images/";
@@ -29,10 +30,10 @@ public class Constant {
 
     public static String TOTAL_NAME="共同消费";
 
-    public static String  TO_EMAIL_ADDRESS="lulu1247848795@qq.com";
-    public static String EMAIL_ADDRESS="hsl_258@163.com";
+    public static String  TO_EMAIL_ADDRESS="123456@qq.com";
+    public static String EMAIL_ADDRESS="123456@163.com";
 
-    public static String EMAIL_PASSWORD="hsl518";
+    public static String EMAIL_PASSWORD="123456";
 
     public static String TOP="亲爱的张漂亮小姐姐:";
     public static String LAST="黄先生";
