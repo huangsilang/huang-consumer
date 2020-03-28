@@ -25,7 +25,8 @@ public class ConsumerController {
     private ConsumerService consumerService;
     @Autowired
     CountTask countTask;
-
+    @Autowired
+    EmailTask emailTask;
     @RequestMapping("/list/{page}/{size}")
     public Map<String,Page<ConsumerPojo>> list(@RequestBody ConsumerPojo consumerPojo,
                                                @PathVariable("page") int page, @PathVariable("size") int size){
@@ -103,8 +104,7 @@ public class ConsumerController {
         }
         return map;
     }
-    @Autowired
-    EmailTask emailTask;
+
     @GetMapping("/task2")
     public Map<String,Object> task2(@RequestBody ConsumerPojo consumerPojo){
         Map<String,Object> map = new HashMap<>();
